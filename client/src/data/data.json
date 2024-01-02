@@ -1,0 +1,7 @@
+[
+    { "id": 1, "name": "ram", "age": "24", "salary": "30000" },
+    { "id": 2, "name": "shayam", "age": "34", "salary": "40000" },
+    { "id": 3, "name": "raju", "age": "21", "salary": "345000" },
+    { "id": 4, "name": "subhash", "age": "28", "salary": "45000" },
+    { "id": 5, "name": "raushan", "age": "26", "salary": "80000" }
+]
