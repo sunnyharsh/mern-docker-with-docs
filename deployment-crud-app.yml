@@ -15,3 +15,15 @@ spec:
       containers:
         - name: crud-app
           image: sunnyharsh/crud-app:v01
+
+# first run this file 
+# command :- kubectl apply -f deployment-crud-app.yml
+
+# than run service file
+# command:- kubectl apply -f service-crud-app.yml
+
+# than check service is exists or not from this
+# command:- kubectl get services 
+
+# than run service
+# command:- minikube service service-my-react-app
