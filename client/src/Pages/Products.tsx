@@ -14,7 +14,7 @@ const Products = () => {
     return (
         <div>
             <div>
-                <h1>Product list</h1>
+                <h1>Products List</h1>
                 {
                    
                     data?.data?.map((obj: any, index:number) => (

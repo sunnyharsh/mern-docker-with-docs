@@ -34,7 +34,10 @@ app.delete('/api/products/:id', async (req, res) => {
     const product = await Product.deleteOne({ id: req.params.id });
     return res.json(product);
 });
-
+app.get('/exit', (req, res) => {
+    res.json({ message: "server exit" });
+    process.exit()
+})
 app.listen(PORT, () => {
     console.log(`server is running on ${PORT}... `)
 })
